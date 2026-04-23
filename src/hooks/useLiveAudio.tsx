@@ -290,7 +290,7 @@ When Jo asks for real-time information, news, or something you don't know, use '
 
 
       sessionPromiseRef.current = ai.live.connect({
-        model: "models/gemini-3.1-flash-live-preview",
+        model: "models/gemini-2.5-flash-native-audio-preview-09-2025",
         config: {
           responseModalities: [Modality.AUDIO],
           mediaResolution: MediaResolution.MEDIA_RESOLUTION_MEDIUM,
